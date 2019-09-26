@@ -34,7 +34,7 @@ From [npm](https://www.npmjs.com/package/cordova-plugin-keyboard) (stable)
 
 From github latest (may not be stable)
 
-`cordova plugin add https://github.com/cjpearson/cordova-plugin-keyboard`
+`cordova plugin add https://github.com/faustopala/cordova-plugin-keyboard`
 
 # Methods
 
