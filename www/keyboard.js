@@ -77,7 +77,7 @@ Keyboard.fireOnHiding = function() {
         document.body.scrollLeft = 0;
     }
 
-    cordova.fireWindowEvent('keyboardWillHide');
+    cordova.fireWindowEvent('keyboardWillHide1');
 
     if(Keyboard.onhiding) {
 	Keyboard.onhiding();
@@ -85,7 +85,7 @@ Keyboard.fireOnHiding = function() {
 };
 
 Keyboard.fireOnShowing = function() {
-    cordova.fireWindowEvent('keyboardWillShow');
+    cordova.fireWindowEvent('keyboardWillShow1');
 
     if(Keyboard.onshowing) {
 	Keyboard.onshowing();
